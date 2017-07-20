@@ -1,0 +1,21 @@
+.yo
+{
+    margin :5px;
+    border :5px ;
+    border-color: black;
+    padding:1px;
+    float:left;
+    width:300px;
+    height:300px;
+    
+}
+.yo img{
+    height:200px;
+    width :300px;
+}
+
+.desc{
+    padding:5px;
+    text-align:center;
+    text-decoration: none;
+}

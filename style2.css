@@ -1,0 +1,122 @@
+body{
+    background-color: black;
+}
+
+.image
+{
+    /*background-image: url("C:\xampp\htdocs\practise\picture\lake.jpeg");
+    // height : 150px;*/
+    animation-name:example;
+    animation-duration: 12s;
+    animation-iteration-count: infinite;
+}
+      
+
+@-webkit-keyframes example {
+   0%  {background-image:  url(IMAGE/lake.jpeg);
+        background-repeat: no-repeat;
+        border: 1px solid black;
+        height:400px;
+        background-size:cover;
+   }
+        25% {background-image: url(IMAGE/mountain2.jpg);
+             background-repeat: no-repeat;
+             border: 1px solid black;
+             height:400px;
+            background-size:cover;
+             }
+        50%
+        {
+          background-image: url(IMAGE/cloud.jpg);
+          background-repeat: no-repeat;
+             border: 1px solid black;
+             height:400px;
+            background-size:cover;
+        }
+        75% 
+        {background-image: url(IMAGE/drop.jpeg);
+         background-repeat: no-repeat;
+             border: 1px solid black;
+             height:400px;
+             background-size:cover;
+            
+        } 
+        100%
+        {background-image:url(IMAGE/beach2.jpeg) ;
+         background-repeat:     no-repeat;
+              border: 1px solid black;
+              height:400px;
+              background-size:cover;
+              } 
+}
+
+
+@keyframes example{
+   0%  {background-image:  url(IMAGE/lake.jpeg);
+        background-repeat:no-repeat;
+        border: 1px solid black;
+        height:400px;
+        background-size:cover;
+   }
+        25% {background-image: url(IMAGE/mountain2.jpg);
+              background-repeat:no-repeat;
+             border: 1px solid black;
+             height:400px;
+            background-size:cover;
+             }
+        50%
+        {
+          background-image: url(IMAGE/cloud.jpg);
+           background-repeat:no-repeat;
+             border: 1px solid black;
+             height:400px;
+             background-size:cover;
+        }
+        75% 
+        {background-image: url(IMAGE/drop.jpeg);
+          background-repeat:no-repeat;
+             border: 1px solid black;
+             height:400px;
+             background-size:cover;
+        } 
+        100%
+        {background-image:url(IMAGE/beach2.jpeg);
+          background-repeat:no-repeat;
+              border: 1px solid black;
+              height:400px;
+              background-size:cover;
+              } 
+}
+
+    #center
+    {
+        padding : 70px 0;
+        text-align: center;
+        color: white ;
+        text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 25px darkblue;
+        font-weight: BOLD;
+        font-size: 200%;
+        font-family:  "Times New Roman", Times, serif;
+    }
+    
+    #menu{
+        float : right;
+        width : 100%;
+        background-color: #0c0c0c;
+        
+    }
+    #menu ul li{
+        list-style-type : none;
+        display :inline;
+        float: right;
+    }
+    
+    #menu li a{
+        display : block;
+        border-right : 2px solid #FFFFFF;
+        text-decoration :none;
+        float : left;
+        padding : 3px ;
+        color :#FFFFFF;
+    }
+ 
